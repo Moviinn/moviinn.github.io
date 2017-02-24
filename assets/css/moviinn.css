@@ -1,0 +1,26 @@
+#landing {
+  background-color: #CCC;
+  background-size: cover;
+  background-image: url('https://source.unsplash.com/sE_SMbr_Y2k/1600x900');
+  background-image: url('https://source.unsplash.com/YZofqJOe_I0/1600x900');
+  background-image: url('https://source.unsplash.com/zzb1hka1geM/1600x900');
+  background-repeat: no-repeat;
+  background-position: 0 -30px;
+}
+#landing h1, #landing h3 {
+  text-shadow: #CCC 0 0 2px;
+}
+
+#community {
+  /* https://uigradients.com/#Mystic */
+  background: #757F9A;
+  background: -webkit-linear-gradient(to left, #757F9A , #D7DDE8);
+  background: linear-gradient(to left, #757F9A , #D7DDE8);
+}
+
+#team {
+  /* https://uigradients.com/#RoseColoredLenses */
+  background: #E8CBC0;
+  background: -webkit-linear-gradient(to left, #E8CBC0 , #636FA4);
+  background: linear-gradient(to left, #E8CBC0 , #636FA4);
+}
