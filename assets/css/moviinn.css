@@ -2,13 +2,13 @@
   background-color: #CCC;
   background-size: cover;
   background-image: url('https://source.unsplash.com/sE_SMbr_Y2k/1600x900');
-  background-image: url('https://source.unsplash.com/YZofqJOe_I0/1600x900');
-  background-image: url('https://source.unsplash.com/zzb1hka1geM/1600x900');
+  /* background-image: url('https://source.unsplash.com/YZofqJOe_I0/1600x900'); */
+  /* background-image: url('https://source.unsplash.com/zzb1hka1geM/1600x900'); */
   background-repeat: no-repeat;
   background-position: 0 -30px;
 }
 #landing h1, #landing h3 {
-  text-shadow: #CCC 0 0 2px;
+  text-shadow: #999 0 0 2px;
 }
 
 #community {
