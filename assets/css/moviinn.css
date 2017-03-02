@@ -1,8 +1,14 @@
+img.logo {
+  height: 30px;
+  line-height: 30px;
+  margin-top: -10px;
+}
+
 #landing {
   background-color: #CCC;
   background-size: cover;
-  background-image: url('https://source.unsplash.com/sE_SMbr_Y2k/1600x900');
-  /* background-image: url('https://source.unsplash.com/YZofqJOe_I0/1600x900'); */
+  /* background-image: url('https://source.unsplash.com/sE_SMbr_Y2k/1600x900'); */
+  background-image: url('https://source.unsplash.com/YZofqJOe_I0/1600x900');
   /* background-image: url('https://source.unsplash.com/zzb1hka1geM/1600x900'); */
   background-repeat: no-repeat;
   background-position: 0 -30px;
@@ -11,16 +17,32 @@
   text-shadow: #999 0 0 2px;
 }
 
+#landing .gradient {
+  background: linear-gradient(to right, #357edd, rgba(0, 0, 0, 0) 80%);
+}
+
 #community {
-  /* https://uigradients.com/#Mystic */
-  background: #757F9A;
-  background: -webkit-linear-gradient(to left, #757F9A , #D7DDE8);
-  background: linear-gradient(to left, #757F9A , #D7DDE8);
+  background: #357edd;
 }
 
 #team {
-  /* https://uigradients.com/#RoseColoredLenses */
-  background: #E8CBC0;
-  background: -webkit-linear-gradient(to left, #E8CBC0 , #636FA4);
-  background: linear-gradient(to left, #E8CBC0 , #636FA4);
+  background: linear-gradient(to right, #EEE, rgba(0, 0, 0, 0));
+}
+
+#contact {
+  background-color: #FFF;
+  background-size: contain;
+  background-image: url('../backgrounds/office-with-tram.jpg');
+  background-position: top right;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+#contact .gradient {
+  background: linear-gradient(to right, #FFF 60%, rgba(0, 0, 0, 0));
+  min-height: 600px;
+}
+
+footer {
+  margin-top: -100px;
 }
