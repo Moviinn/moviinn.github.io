@@ -5,16 +5,10 @@ img.logo {
 }
 
 #landing {
-  background-color: #CCC;
   background-size: cover;
-  /* background-image: url('https://source.unsplash.com/sE_SMbr_Y2k/1600x900'); */
-  background-image: url('https://source.unsplash.com/YZofqJOe_I0/1600x900');
-  /* background-image: url('https://source.unsplash.com/zzb1hka1geM/1600x900'); */
+  background-image: url('../backgrounds/nathalia-segato-172304.jpg');
   background-repeat: no-repeat;
   background-position: 0 -30px;
-}
-#landing h1, #landing h3 {
-  text-shadow: #999 0 0 2px;
 }
 
 #landing .gradient {
@@ -35,14 +29,13 @@ img.logo {
   background-image: url('../backgrounds/office-with-tram.jpg');
   background-position: top right;
   background-repeat: no-repeat;
-  min-height: 600px;
 }
 
 #contact .gradient {
-  background: linear-gradient(to right, #FFF 60%, rgba(0, 0, 0, 0));
-  min-height: 600px;
+  background: linear-gradient(110deg, #FFF 60%, rgba(0, 0, 0, 0) 85%);
+  min-height: 800px;
 }
 
 footer {
-  margin-top: -100px;
+  margin-top: -250px;
 }
