@@ -12,7 +12,13 @@ img.logo {
 }
 
 #landing .gradient {
-  background: linear-gradient(to right, #357edd, rgba(0, 0, 0, 0) 80%);
+  background: linear-gradient(30deg, #357edd 45%, rgba(0, 0, 0, 0));
+}
+
+@media screen and (min-width: 30em) {
+  #landing .gradient {
+    background: linear-gradient(to right, #357edd, rgba(0, 0, 0, 0) 80%);
+  }
 }
 
 #community {
