@@ -5,15 +5,17 @@
 
   <body>
 
-    {% include nav.html %}
+    <header role="Navigation">
+      {% include nav.html %}
+    </header>
 
     <main aria-label="Content">
-      <div>
-        {{ content }}
-      </div>
+      {{ content }}
     </main>
 
-    {% include footer.html %}
+    <footer>
+      {% include footer.html %}
+    </footer>
 
   </body>
 
