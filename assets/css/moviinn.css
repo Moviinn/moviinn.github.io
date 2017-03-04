@@ -33,15 +33,27 @@ img.logo {
   background-color: #FFF;
   background-size: contain;
   background-image: url('../backgrounds/office-with-tram.jpg');
-  background-position: top right;
+  background-position: bottom right;
   background-repeat: no-repeat;
 }
 
 #contact .gradient {
-  background: linear-gradient(110deg, #FFF 60%, rgba(0, 0, 0, 0) 85%);
-  min-height: 800px;
+  background: linear-gradient(160deg, #FFF 80%, rgba(0, 0, 0, 0) 95%);
+  min-height: 850px;
 }
 
 footer {
-  margin-top: -250px;
+  margin-top: -200px;
+}
+
+@media screen and (min-width: 30em) {
+
+  #contact .gradient {
+    background: linear-gradient(110deg, #FFF 60%, rgba(0, 0, 0, 0) 85%);
+    min-height: 650px;
+  }
+
+  footer {
+    margin-top: -100px;
+  }
 }
