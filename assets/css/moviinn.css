@@ -5,40 +5,42 @@ img.logo {
 }
 
 #landing {
+  background: linear-gradient(to right, rgba(0, 36, 82, 0.5), rgba(0, 36, 82, 0.5)), url('../backgrounds/nathalia-segato-172304_small-min.jpg');
   background-size: cover;
-  background-image: url('../backgrounds/nathalia-segato-172304.jpg');
   background-repeat: no-repeat;
-  background-position: 0 -30px;
 }
 
-#landing .gradient {
-  background: linear-gradient(30deg, #357edd 45%, rgba(0, 0, 0, 0));
-}
-
-@media screen and (min-width: 30em) {
-  #landing .gradient {
-    background: linear-gradient(to right, #357edd, rgba(0, 0, 0, 0) 80%);
-  }
+.how-bg {
+  background: url('../svg/how.svg');
+  background-position: 50% center;
+  background-size: 30%;
+  background-repeat: no-repeat;
 }
 
 #community {
-  background: #357edd;
+  background: #002452 url('../svg/ii.svg');
+  background-size: 10%;
+  background-position: 90% 115%;
+  background-repeat: no-repeat;
+}
+
+.services-bg {
+  background: url('../svg/services.svg');
+  background-position: 50% center;
+  background-size: 30%;
+  background-repeat: no-repeat;
 }
 
 #team {
-  background: linear-gradient(to right, #EEE, rgba(0, 0, 0, 0));
+  background: linear-gradient(to right, #EEE, transparent);
 }
 
 #contact {
   background-color: #FFF;
   background-size: contain;
-  background-image: url('../backgrounds/office-with-tram.jpg');
+  background-image: linear-gradient(to right, white 40%, transparent 1%), url('../backgrounds/office-with-tram-min.jpg');
   background-position: bottom right;
   background-repeat: no-repeat;
-}
-
-#contact .gradient {
-  background: linear-gradient(160deg, #FFF 80%, rgba(0, 0, 0, 0) 95%);
   min-height: 850px;
 }
 
@@ -48,9 +50,8 @@ footer {
 
 @media screen and (min-width: 30em) {
 
-  #contact .gradient {
-    background: linear-gradient(110deg, #FFF 60%, rgba(0, 0, 0, 0) 85%);
-    min-height: 650px;
+  #contact {
+    min-height: 800px;
   }
 
   footer {
