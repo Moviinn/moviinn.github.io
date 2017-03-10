@@ -1,3 +1,13 @@
+.futura { font-family: Futura, sans-serif; }
+
+.navy-mvn { color: #002452; }
+.bg-navy-mvn { background-color: #002452; }
+.b--navy-mvn { border-color: #002452; }
+.blue-mvn { color: #42b4e7; }
+.bg-blue-mvn { background-color: #42b4e7; }
+.b--blue-mvn { border-color: #42b4e7; }
+
+
 img.logo {
   height: 30px;
   line-height: 30px;
