@@ -1,8 +1,12 @@
-.futura { font-family: Futura, sans-serif; }
+@import url('https://fonts.googleapis.com/css?family=Questrial');
 
-.navy-mvn { color: #002452; }
-.bg-navy-mvn { background-color: #002452; }
-.b--navy-mvn { border-color: #002452; }
+body {
+  font-family: Questrial, sans-serif;
+}
+
+.navy-mvn { color: #42b4e7; }
+.bg-navy-mvn { background-color: #42b4e7; }
+.b--navy-mvn { border-color: #42b4e7; }
 .blue-mvn { color: #42b4e7; }
 .bg-blue-mvn { background-color: #42b4e7; }
 .b--blue-mvn { border-color: #42b4e7; }
@@ -15,28 +19,26 @@ img.logo {
 }
 
 #landing {
-  background: linear-gradient(to right, rgba(0, 36, 82, 0.5), rgba(0, 36, 82, 0.5)), url('../backgrounds/nathalia-segato-172304_small-min.jpg');
+  background: url('../backgrounds/david-marcu-158231.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .how-bg {
   background: url('../svg/how.svg');
-  background-position: 50% center;
+  background-position: 50% 40%;
   background-size: 30%;
   background-repeat: no-repeat;
 }
 
 #community {
-  background: #002452 url('../svg/ii.svg');
-  background-size: 10%;
-  background-position: 90% 115%;
-  background-repeat: no-repeat;
+  background: #42b4e7;
+  background: linear-gradient(to right, #EEE, transparent);
 }
 
 .services-bg {
   background: url('../svg/services.svg');
-  background-position: 50% center;
+  background-position: 50% 40%;
   background-size: 30%;
   background-repeat: no-repeat;
 }
