@@ -4,13 +4,11 @@ body {
   font-family: Questrial, sans-serif;
 }
 
-.navy-mvn { color: #42b4e7; }
-.bg-navy-mvn { background-color: #42b4e7; }
-.b--navy-mvn { border-color: #42b4e7; }
 .blue-mvn { color: #42b4e7; }
 .bg-blue-mvn { background-color: #42b4e7; }
 .b--blue-mvn { border-color: #42b4e7; }
-
+.ts-0-0-50 { text-shadow: black 0 0 50px; }
+.ts-1-0-10 { text-shadow: black 1px 0 10px; }
 
 img.logo {
   height: 30px;
@@ -19,7 +17,7 @@ img.logo {
 }
 
 #landing {
-  background: url('../backgrounds/david-marcu-158231.jpg');
+  background: url('../backgrounds/david-marcu-158231-min.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -34,6 +32,12 @@ img.logo {
 #community {
   background: #42b4e7;
   background: linear-gradient(to right, #EEE, transparent);
+}
+
+.linkedin-bg {
+  background: url('../svg/linkedin.svg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .services-bg {
