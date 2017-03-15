@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial');
 
-body {
-  font-family: Questrial, sans-serif;
-}
+body { font-family: Questrial, sans-serif; }
 
 .blue-mvn { color: #42b4e7; }
 .bg-blue-mvn { background-color: #42b4e7; }
 .b--blue-mvn { border-color: #42b4e7; }
-.ts-0-0-50 { text-shadow: black 0 0 50px; }
-.ts-1-0-10 { text-shadow: black 1px 0 10px; }
 
 img.logo {
   height: 30px;
@@ -19,20 +15,14 @@ img.logo {
 #landing {
   background: url('../backgrounds/david-marcu-158231-min.jpg');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
-.how-bg {
-  background: url('../svg/how.svg');
-  background-position: 50% 40%;
-  background-size: 30%;
-  background-repeat: no-repeat;
-}
+#landing h1 { text-shadow: black 1px 0 25px; }
+#landing h4 { text-shadow: black 1px 0 10px; }
 
-#community {
-  background: #42b4e7;
-  background: linear-gradient(to right, #EEE, transparent);
-}
+#community { background: linear-gradient(to right, #EEE, transparent); }
 
 .linkedin-bg {
   background: url('../svg/linkedin.svg');
@@ -40,37 +30,50 @@ img.logo {
   background-repeat: no-repeat;
 }
 
-.services-bg {
-  background: url('../svg/services.svg');
-  background-position: 50% 40%;
-  background-size: 30%;
-  background-repeat: no-repeat;
-}
+#team { background: linear-gradient(to right, #EEE, transparent); }
 
-#team {
-  background: linear-gradient(to right, #EEE, transparent);
-}
-
-#contact {
-  background-color: #FFF;
-  background-size: contain;
-  background-image: linear-gradient(to right, white 40%, transparent 1%), url('../backgrounds/office-with-tram-min.jpg');
+.office-bg {
+  background-size: cover;
+  background-image: url('../backgrounds/office-with-tram-min.jpg');
   background-position: bottom right;
   background-repeat: no-repeat;
-  min-height: 850px;
+  min-height: 250px;
 }
 
-footer {
-  margin-top: -200px;
-}
-
+/* -ns aka not small */
 @media screen and (min-width: 30em) {
+  #landing h1 { text-shadow: black 0 0 50px; }
 
   #contact {
+    background: #fff;
+    min-height: auto;
+  }
+}
+
+/* -l aka large */
+@media screen and (min-width:60em) {
+  .how-bg {
+    background: url('../svg/how.svg');
+    background-position: 50% 40%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+  }
+
+  .services-bg {
+    background: url('../svg/services.svg');
+    background-position: 50% 40%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+  }
+
+  #contact {
+    background-color: #FFF;
+    background-size: contain;
+    background-image: linear-gradient(to right, white 40%, transparent 1%), url('../backgrounds/office-with-tram-min.jpg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
     min-height: 800px;
   }
 
-  footer {
-    margin-top: -100px;
-  }
+  footer { margin-top: -80px; }
 }
