@@ -54,14 +54,14 @@ img.logo {
 @media screen and (min-width:60em) {
   .how-bg {
     background: url('../svg/how.svg');
-    background-position: 50% 40%;
+    background-position: 50% 55%;
     background-size: 30%;
     background-repeat: no-repeat;
   }
 
   .services-bg {
     background: url('../svg/services.svg');
-    background-position: 50% 40%;
+    background-position: 50% 30%;
     background-size: 30%;
     background-repeat: no-repeat;
   }
