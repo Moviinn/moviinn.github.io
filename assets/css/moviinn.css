@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial');
 
-body { font-family: Questrial, sans-serif; }
+body * { font-family: Questrial, sans-serif; }
 
 .blue-mvn { color: #42b4e7; }
 .bg-blue-mvn { background-color: #42b4e7; }
