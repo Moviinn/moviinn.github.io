@@ -15,11 +15,12 @@
       </a>
     </p>
 
-    <form action="https://formspree.io/contact@moviinn.com" method="POST" onsubmit="return contactFormSubmit()" id="mvn-form" class="f4-l pt2-l">
+    <form action="https://formspree.io/contact@moviinn.com" method="POST" id="mvn-form" class="f4-l pt2-l">
 
-      <input type="hidden" name="_next" value="//moviinn.com?thanks" />
+      <input type="hidden" name="_next" value="//moviinn.com#contact?thanks" />
       <input type="hidden" name="_subject" value="New MOVIINN message" />
       <input type="hidden" name="_format" value="plain" />
+      <input type="text" name="_gotcha" style="display:none" />
 
       <input name="name" placeholder="Your name..." required type="text" class="mv2 mv3-ns mv4-l db bl-0 bt-0 br-0 bb b--dashed b--light-silver">
       <input name="_replyto" placeholder="Your email..." required type="email" class="mv2 mv3-ns mv4-l db bl-0 bt-0 br-0 bb b--dashed b--light-silver">
