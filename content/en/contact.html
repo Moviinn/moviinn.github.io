@@ -15,9 +15,14 @@
       </a>
     </p>
 
-    <form class="f4-l pt2-l">
+    <form action="https://formspree.io/contact@moviinn.com" method="POST" onsubmit="return contactFormSubmit()" id="mvn-form" class="f4-l pt2-l">
+
+      <input type="hidden" name="_next" value="//moviinn.com?thanks" />
+      <input type="hidden" name="_subject" value="New MOVIINN message" />
+      <input type="hidden" name="_format" value="plain" />
+
       <input name="name" placeholder="Your name..." required type="text" class="mv2 mv3-ns mv4-l db bl-0 bt-0 br-0 bb b--dashed b--light-silver">
-      <input name="email" placeholder="Your email..." required type="email" class="mv2 mv3-ns mv4-l db bl-0 bt-0 br-0 bb b--dashed b--light-silver">
+      <input name="_replyto" placeholder="Your email..." required type="email" class="mv2 mv3-ns mv4-l db bl-0 bt-0 br-0 bb b--dashed b--light-silver">
       <textarea name="message" placeholder="Start by telling us about your current location and your desired destination..." class="mv2 mv3-ns mv4-l db vh-25 bl-0 bt-0 br-0 bb b--dashed b--light-silver"></textarea>
 
       <input type="submit" class="db mt4 mb2 mt3 mt0-l f5 ph4 pv3 ttu tracked link dim b br2 ba b--mid-gray mid-gray bg-white">
