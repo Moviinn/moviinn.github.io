@@ -3,10 +3,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <title>{{ site.title | normalize_whitespace | escape }} &bull; {{ site.description | normalize_whitespace | escape }}</title>
+  <meta name="description" content="{{ site.description | normalize_whitespace | escape }}">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="{{ site.twitter_username }}">
+  <meta name="twitter:title" content="{{ site.title | normalize_whitespace | escape }}">
+  <meta name="twitter:description" content="{{ site.description | normalize_whitespace | escape }}">
+  <meta name="twitter:creator" content="{{ site.twitter_username }}">
+  <meta name="twitter:image" content="{{ site.logo_url }}">
+
+  <meta property="og:title" content="{{ site.title | normalize_whitespace | escape }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://moviinn.com">
+  <meta property="og:image" content="{{ site.logo_url }}">
+  <meta property="og:description" content="{{ site.description | normalize_whitespace | escape }}">
+  <meta property="fb:admins" content="{{ site.facebook_username }}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
-  <link rel="stylesheet" href="/assets/css/moviinn.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css">
+  <link rel="stylesheet" href="/assets/css/moviinn.css">
 </head>
