@@ -17,9 +17,13 @@ title: MOVIINN
 email: contact@moviinn.com
 description: > # this means to ignore newlines until "baseurl:"
   Everything you need when moving to Portugal
+keywords: >
+  moviinn, moving, abroad, cities, expatriate, expatriates, community, expat,
+  expats, network, startup, jobs, travel, Corporate relocation, global
+  relocation, relocation, rooms, rent
 twitter_username: '@moviinn'
 facebook_username: 536772559687296
-logo_url: 'http://moviinn.com/assets/logo.svg'
+logo_url: 'http://moviinn.com/assets/logo.png'
 
 # Build settings
 markdown: kramdown
