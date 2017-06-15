@@ -1,4 +1,4 @@
-<div id="contact" class="mid-gray">
+<div id="contact" class="mid-gray bg-white contain cover-l">
 
   <div class="w-90 center pv4 pv5-ns">
 
@@ -15,18 +15,35 @@
       </a>
     </p>
 
-    <form action="https://formspree.io/contact@moviinn.com" method="POST" id="mvn-form" class="f4-l pt2-l">
+    <form action="https://podio.com/webforms/18528410/1247587" method="POST" id="mvn-form" class="f4-l pt2-l">
 
-      <input type="hidden" name="_next" value="//moviinn.com#contact?thanks" />
-      <input type="hidden" name="_subject" value="New MOVIINN message" />
-      <input type="hidden" name="_format" value="plain" />
-      <input type="text" name="_gotcha" style="display:none" />
+      <input name="fields['first-name']" placeholder="O primeiro nome..." required type="text" class="mv2 mv3-ns mv4-l db bl-0 bt-0 br-0 bb b--dashed b--light-silver">
+      <input name="fields['last-name']" placeholder="O sobrenome..." required type="text" class="mv2 mv3-ns mv4-l db bl-0 bt-0 br-0 bb b--dashed b--light-silver">
+      <input name="fields[email][][value]" placeholder="O seu email..." required type="email" class="mv2 mv3-ns mv4-l db bl-0 bt-0 br-0 bb b--dashed b--light-silver">
+      <input type="hidden" name="fields[email][][type]" value="other">
 
-      <input name="name" placeholder="O seu nome..." required type="text" class="mv2 mv3-ns mv4-l db bl-0 bt-0 br-0 bb b--dashed b--light-silver">
-      <input name="_replyto" placeholder="O seu email..." required type="email" class="mv2 mv3-ns mv4-l db bl-0 bt-0 br-0 bb b--dashed b--light-silver">
-      <textarea name="message" placeholder="Começa com a sua localização atual e o seu destino desejado..." class="mv2 mv3-ns mv4-l db vh-25 bl-0 bt-0 br-0 bb b--dashed b--light-silver"></textarea>
+      <textarea name="fields[intro]" placeholder="Começa com a sua localização atual e o seu destino desejado..." class="mv2 mv3-ns mv4-l db vh-25 bl-0 bt-0 br-0 bb b--dashed b--light-silver"></textarea>
 
-      <input type="submit" class="db mt4 mb2 mt3 mt0-l f5 ph4 pv3 ttu tracked link dim b br2 ba b--mid-gray mid-gray bg-white">
+      <p class="lh-copy">
+        Pick services of interest:
+        <label class="db">
+          <input type="checkbox" value="1" name="fields[services][]" checked="true"> Visa / Legais
+        </label>
+        <label class="db">
+          <input type="checkbox" value="2" name="fields[services][]"> Fiscal
+        </label>
+        <label class="db">
+          <input type="checkbox" value="3" name="fields[services][]"> Emprego
+        </label>
+        <label class="db">
+          <input type="checkbox" value="4" name="fields[services][]"> Habitação
+        </label>
+        <label class="db">
+          <input type="checkbox" value="5" name="fields[services][]"> Outros
+        </label>
+      </p>
+
+      <input type="submit" class="db mb3 mb5-l mt3 mt0-l f5 ph4 pv3 ttu tracked link dim b br2 ba b--mid-gray mid-gray bg-white">
     </form>
 
   </div>
