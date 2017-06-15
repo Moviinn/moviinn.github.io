@@ -67,8 +67,6 @@ img.logo {
   }
 
   #contact {
-    background-color: #FFF;
-    background-size: contain;
     background-image: linear-gradient(to right, white 40%, transparent 1%), url('../backgrounds/office-with-tram-min.jpg');
     background-position: bottom right;
     background-repeat: no-repeat;
