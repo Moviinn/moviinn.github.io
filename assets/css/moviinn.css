@@ -59,8 +59,22 @@ img.logo {
     background-repeat: no-repeat;
   }
 
+  .pt-how-bg {
+    background: url('../svg/how-pt.svg');
+    background-position: 50% 50%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+  }
+
   .services-bg {
     background: url('../svg/services.svg');
+    background-position: 50% 35%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+  }
+
+  .pt-services-bg {
+    background: url('../svg/services-pt.svg');
     background-position: 50% 35%;
     background-size: 30%;
     background-repeat: no-repeat;
