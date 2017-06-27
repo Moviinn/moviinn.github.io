@@ -27,10 +27,6 @@ logo_url: 'http://moviinn.com/assets/logo.png'
 
 # Build settings
 markdown: kramdown
-gems:
-  - jekyll-redirect-from
-whitelist:
-  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
